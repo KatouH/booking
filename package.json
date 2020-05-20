@@ -1,0 +1,37 @@
+{
+  "name": "booking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -t wechat -w",
+    "build": "cross-env NODE_ENV=production remax build -t wechat"
+  },
+  "devDependencies": {
+    "@magicspace/configs": "^0.2.4",
+    "@magicspace/eslint-plugin": "^0.1.23",
+    "@types/classnames": "^2.2.10",
+    "@types/color": "^3.0.1",
+    "@types/react": "^16.9.35",
+    "@types/styled-components": "^5.1.0",
+    "cross-env": "^7.0.2",
+    "dot-template-types": "^0.1.1",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.3",
+    "typescript-plugin-styled-components": "^1.4.4"
+  },
+  "dependencies": {
+    "@makeflow/react-utils": "^0.1.16",
+    "classnames": "^2.2.6",
+    "color": "^3.1.2",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
+    "mobx-utils": "^5.5.7",
+    "react": "^16.13.1",
+    "remax": "^2.0.7",
+    "styled-components": "^5.1.0",
+    "tslang": "^0.1.22",
+    "tslib": "^2.0.0"
+  }
+}
